@@ -1,0 +1,42 @@
+{
+    "name": "print-factor",
+    "version": "1.0.0",
+    "description": "print page",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon --watch gulpfile.js --watch gulpfile.babel.js --quiet --exitcrash --exec gulp",
+        "update:packages": "rm -rf node_modules && npm update --save-dev && npm update --save",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "mohammad hemmati",
+    "license": "GPL-3.0-or-later",
+    "dependencies": {
+        "bootstrap": "^4.5.2",
+        "font-awesome": "^4.7.0",
+        "vue": "^2.6.12"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.11.6",
+        "@babel/preset-env": "^7.11.5",
+        "@babel/register": "^7.11.5",
+        "browser-sync": "^2.26.12",
+        "del": "^5.1.0",
+        "gulp": "^4.0.2",
+        "gulp-autoprefixer": "^7.0.1",
+        "gulp-babel": "^8.0.0",
+        "gulp-clean-css": "^4.3.0",
+        "gulp-concat": "^2.6.1",
+        "gulp-htmlmin": "^5.0.1",
+        "gulp-if": "^3.0.0",
+        "gulp-load-plugins": "^2.0.4",
+        "gulp-plumber": "^1.2.1",
+        "gulp-rename": "^2.0.0",
+        "gulp-replace": "^1.0.0",
+        "gulp-sass": "^4.1.0",
+        "gulp-sourcemaps": "^2.6.5",
+        "gulp-uglify": "^3.0.2",
+        "gulp-util": "^3.0.8",
+        "node-sass": "^4.14.1",
+        "nodemon": "^2.0.4"
+    }
+}
